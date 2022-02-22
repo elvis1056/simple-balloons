@@ -1,0 +1,21 @@
+.navLogo {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  font-size: calc(0.75vw + 15.6px);
+  .logoImage {
+    border-radius: 50;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 15px 30px;
+  }
+  .navLogo {
+      width: 80%;
+  }
+}
