@@ -79,7 +79,7 @@ class Nav extends Component {
     return (
       <>
         <nav className={`nav navbar navbar-expand-lg navbar-light bg-light ${navStyle.nav}`}>
-          <Link className={`${navStyle.navLogo}`} to="/">
+          <Link className={`${navStyle.navLogo}`} to="/balloons/">
             <img className={`${navStyle.logoImage}`} src={logo} alt="" />
             <div className="logo-des">Boom Studio</div>
           </Link>
@@ -94,48 +94,48 @@ class Nav extends Component {
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <h6 className="dropdown-header">暢銷類</h6>
-                  <Link className="dropdown-item" onClick={closeDropNav} to="/hotsale">
+                  <Link className="dropdown-item" onClick={closeDropNav} to="/balloons/hotsale">
                     熱銷商品
                   </Link>
-                  <Link className="dropdown-item" onClick={closeDropNav} to="/hotsalegroup">
+                  <Link className="dropdown-item" onClick={closeDropNav} to="/balloons/hotsalegroup">
                     熱銷套組
                   </Link>
-                  <Link className="dropdown-item" onClick={closeDropNav} to="/hotsalesingle">
+                  <Link className="dropdown-item" onClick={closeDropNav} to="/balloons/hotsalesingle">
                     精選單品
                   </Link>
                   <div className="dropdown-divider"></div>
                   <h6 className="dropdown-header">空飄氣球類</h6>
-                  <Link className="dropdown-item" onClick={closeDropNav} to="/airballoon">
+                  <Link className="dropdown-item" onClick={closeDropNav} to="/balloons/airballoon">
                     空飄串
                   </Link>
-                  <Link className="dropdown-item" onClick={closeDropNav} to="/airfoilballoon">
+                  <Link className="dropdown-item" onClick={closeDropNav} to="/balloons/airfoilballoon">
                     質感空飄串
                   </Link>
                   <div className="dropdown-divider"></div>
                   <h6 className="dropdown-header">佈置類</h6>
-                  <Link className="dropdown-item" onClick={closeDropNav} to="/decoratesingle">
+                  <Link className="dropdown-item" onClick={closeDropNav} to="/balloons/decoratesingle">
                     佈置單品
                   </Link>
-                  <Link className="dropdown-item" onClick={closeDropNav} to="/decorategroup">
+                  <Link className="dropdown-item" onClick={closeDropNav} to="/balloons/decorategroup">
                     佈置套組
                   </Link>
-                  <Link className="dropdown-item" onClick={closeDropNav} to="/handmade">
+                  <Link className="dropdown-item" onClick={closeDropNav} to="/balloons/handmade">
                     手做氣球
                   </Link>
                 </div>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/allFestival">
+                <Link className="nav-link" to="/balloons/allFestival">
                   節慶精選
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="/balloons/about">
                   氣球老師
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/customized">
+                <Link className="nav-link" to="/balloons/customized">
                   客製化氣球
                 </Link>
               </li>

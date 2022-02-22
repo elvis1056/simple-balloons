@@ -58,24 +58,24 @@ class App extends Component {
         {/* <DividerNews /> */}
         {/* <div className="mobile-margin-top-50"> */}
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/categories" component={CategoriesContainer} />
-          <Route path="/hotsale" component={HotsaleContainer} />
-          <Route path="/hotsalegroup" component={HotsaleGroupContainer} />
-          <Route path="/hotsalesingle" component={HotsaleSingleContainer} />
-          <Route path="/handmade" component={HandmadeContainer} />
-          <Route path="/airballoon" component={AirBalloonContainer} />
-          <Route path="/airfoilballoon" component={AirFoilBalloonContainer} />
+          <Route path="/balloons" exact component={Home} />
+          <Route path="/balloons/categories" component={CategoriesContainer} />
+          <Route path="/balloons/hotsale" component={HotsaleContainer} />
+          <Route path="/balloons/hotsalegroup" component={HotsaleGroupContainer} />
+          <Route path="/balloons/hotsalesingle" component={HotsaleSingleContainer} />
+          <Route path="/balloons/handmade" component={HandmadeContainer} />
+          <Route path="/balloons/airballoon" component={AirBalloonContainer} />
+          <Route path="/balloons/airfoilballoon" component={AirFoilBalloonContainer} />
 
-          <Route path="/decorategroup" component={DecorateGroupContainer} />
-          <Route path="/decoratesingle" component={DecorateSingleContainer} />
+          <Route path="/balloons/decorategroup" component={DecorateGroupContainer} />
+          <Route path="/balloons/decoratesingle" component={DecorateSingleContainer} />
 
-          <Route path="/customized" component={Customized} />
-          <Route path="/allFestival" component={allFestival} />
-          <Route path="/about" component={About} />
+          <Route path="/balloons/customized" component={Customized} />
+          <Route path="/balloons/allFestival" component={allFestival} />
+          <Route path="/balloons/about" component={About} />
 
-          <Route path="/checkout" component={CheckoutContainer} />
-          <Route path="/payment" component={PaymentContainer} />
+          <Route path="/balloons/checkout" component={CheckoutContainer} />
+          <Route path="/balloons/payment" component={PaymentContainer} />
 
         </Switch>
         <Footer />

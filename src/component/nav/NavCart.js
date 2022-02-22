@@ -42,7 +42,7 @@ class NavCart extends Component {
               </Table>
           </ModalBody>
           <ModalFooter>
-            <Link to="/checkout">
+            <Link to="/balloons/checkout">
               <Button outline color="primary" onClick={toggle}>
               結帳
               </Button>
